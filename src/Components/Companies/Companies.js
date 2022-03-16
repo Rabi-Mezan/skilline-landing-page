@@ -13,7 +13,7 @@ const Companies = () => {
 
             <p style={{ color: '#696984' }} className='text-xl'>Trusted by 5,000+ Companies Worldwide</p>
 
-            <div className='flex justify-between items-start mt-12 w-2/3 m-auto'>
+            <div className='lg:flex justify-between items-start mt-12 lg:w-3/4 m-auto'>
                 <img className='w-32' src={google} alt="" />
                 <img className='w-32 mt-2' src={netflix} alt="" />
                 <img className='w-32' src={airbnb} alt="" />
