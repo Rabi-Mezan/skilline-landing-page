@@ -13,16 +13,14 @@ const Companies = () => {
 
             <p style={{ color: '#696984' }} className='text-xl'>Trusted by 5,000+ Companies Worldwide</p>
 
-            <div className='flex justify-between items-start mt-10 w-3/4 m-auto'>
+            <div className='flex justify-between items-start mt-12 w-2/3 m-auto'>
                 <img className='w-32' src={google} alt="" />
-                <img className='w-32' src={netflix} alt="" />
+                <img className='w-32 mt-2' src={netflix} alt="" />
                 <img className='w-32' src={airbnb} alt="" />
-                <img className='w-28' src={amazon} alt="" />
-                <img className='w-32' src={facebook} alt="" />
-                <img className='w-28' src={grab} alt="" />
-
+                <img className='w-28 mt-3' src={amazon} alt="" />
+                <img className='w-32 mt-2' src={facebook} alt="" />
+                <img className='w-24' src={grab} alt="" />
             </div>
-
         </div>
     );
 };
