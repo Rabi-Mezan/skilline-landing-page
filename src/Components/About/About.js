@@ -1,5 +1,6 @@
 import React from 'react';
-import instructor from '../../assests/students.png'
+import instructor from '../../assests/instructor.png'
+import students from '../../assests/students.png'
 
 const About = () => {
     return (
@@ -20,7 +21,7 @@ const About = () => {
 
                 </div>
                 <div className='relative'>
-                    <img className='  z-0' src={instructor} alt="" />
+                    <img className='  z-0' src={students} alt="" />
                     <div className='absolute top-20 left-20'>
                         <h3 className='text-2xl text-white font-semibold'>FOR STUDENTS</h3>
                         <button style={{ backgroundColor: '#23BDEEE5' }} className='w-auto  text-white    px-5 py-4 my-3 rounded-full text-center'>Enter access code</button>

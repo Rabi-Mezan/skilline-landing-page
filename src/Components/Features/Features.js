@@ -12,11 +12,11 @@ const Features = () => {
             <p style={{ color: '#464646' }} className='lg:w-2/4 m-auto text-sm mt-4'>This very extraordinary feature, can make learning activities more efficient
             </p>
 
-            <div className='relative grid lg:grid-cols-2 mt-28  justify-center  w-full mx-auto gap-5 '>
+            <div className='relative grid lg:grid-cols-2 mt-28  justify-center lg:P-0 P-3  w-full mx-auto gap-5 '>
                 <div>
                     <img className='w-full' src={features} alt="" />
                 </div>
-                <div className='text-left'>
+                <div className='text-left p-5'>
                     <h4 style={{ color: '#2F327D', fontWeight: "700", lineHeight: '50px' }} className='lg:text-3xl '>A  <span style={{ color: '#F48C06' }}>user interface </span>designed for the classroom </h4>
                     <div className='my-10'>
                         <div className=' flex items-center justify-between'>

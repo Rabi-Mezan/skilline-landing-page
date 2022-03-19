@@ -14,7 +14,7 @@ const Navbar = () => {
                     <a href='/' class="mr-10 ">Blog</a>
                     <a href='/' class="mr-10 ">About Us</a>
                 </nav>
-                <button class="border-0 py-1 px-3 focus:outline-none bg-white rounded-3xl text-base mt-4 md:mt-0 mr-5 w-28 h-10 text-center ">Login
+                <button class="border-0 py-1 px-3 focus:outline-none bg-white rounded-3xl text-base mt-4 md:mt-0 lg:mr-5 w-28 h-10 text-center ">Login
                 </button>
                 <button style={{ backgroundColor: '#F48C06' }} class="border-0 py-1 px-3 focus:outline-none rounded-3xl text-base mt-4 md:mt-0 w-28 h-10 text-center text-white">Sign Up
                 </button>
