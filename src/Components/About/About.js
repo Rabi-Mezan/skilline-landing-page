@@ -14,17 +14,17 @@ const About = () => {
             <div className=' grid lg:grid-cols-2 mt-28  justify-center  w-3/4 mx-auto gap-8 '>
                 <div className='relative w-full'>
                     <img className=' z-0' src={instructor} alt="" />
-                    <div className='absolute top-20 left-20'>
-                        <h3 className='text-2xl text-white font-semibold'>FOR INSTRUCTORS</h3>
-                        <button className='w-auto  text-white bg-transparent  border-2 border-white px-5 py-4 my-3 rounded-full text-center'>Start a class today</button>
+                    <div className='absolute lg:top-20 lg:left-20 top-10 left-10'>
+                        <h3 className='lg:text-2xl text-xl text-white font-semibold'>FOR INSTRUCTORS</h3>
+                        <button className='w-auto  text-white bg-transparent  border-2 border-white lg:px-5 px-3 py-2 lg:py-4 my-3 rounded-full text-xs lg:text-lg text-center'>Start a class today</button>
                     </div>
 
                 </div>
                 <div className='relative'>
                     <img className='  z-0' src={students} alt="" />
-                    <div className='absolute top-20 left-20'>
+                    <div className='absolute lg:top-20 lg:left-20 top-10 left-10'>
                         <h3 className='text-2xl text-white font-semibold'>FOR STUDENTS</h3>
-                        <button style={{ backgroundColor: '#23BDEEE5' }} className='w-auto  text-white    px-5 py-4 my-3 rounded-full text-center'>Enter access code</button>
+                        <button style={{ backgroundColor: '#23BDEEE5' }} className='w-auto  text-white  lg:px-5 px-3 py-2 lg:py-4 my-3 rounded-full text-xs lg:text-lg  text-center'>Enter access code</button>
                     </div>
 
                 </div>

@@ -22,7 +22,7 @@ const Classroom = () => {
                     <img className='absolute z-0 -mt-5 -ml-5' src={rectblue} alt="" />
 
                     <img className='relative z-50 w-full' src={classroom} alt="" />
-                    <img className='absolute z-0 -bottom-3 -right-2 w-1/4' src={rectOrange} alt="" />
+                    <img className='absolute z-0 -bottom-2 -right-2 w-1/4' src={rectOrange} alt="" />
 
                 </div>
 

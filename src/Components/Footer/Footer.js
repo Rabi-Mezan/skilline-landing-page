@@ -4,7 +4,7 @@ import logo from '../../assests/logotrans.png'
 const Footer = () => {
     return (
         <div style={{ backgroundColor: '#252641' }} className='flex flex-col items-center  justify-center py-20'>
-            <div className='flex  justify-center w-2/4'>
+            <div className='flex items-center  justify-center w-2/4'>
                 <img className='mr-5' src={logo} alt="" />
                 <p className='text-white text-lg text-left font-semibold border-l-2 px-5'>Virtual Class  for Zoom</p>
             </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                 |
                 <a className='mx-3' href="/">Terms & Conditions</a>
                 <br />
-                <small className='text-md'>© 2021 Class Technologies Inc. </small>
+                <p className='text-md mt-2'>© 2021 Class Technologies Inc. </p>
             </div>
 
 
